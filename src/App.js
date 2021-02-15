@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>my key is {process.env.MY_KEY}</p>
       </header>
     </div>
   );
